@@ -1,0 +1,21 @@
+.healthbar {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #575757;
+    margin: 1rem 0;
+    background: #fde5e5;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .healthbar__value {
+    background-color: #00a876;
+    height: 100%;
+    transition: width 0.3s ease-out;
+  }
+  
+  h2 {
+    margin: 0.5rem 0;
+    color: #333;
+    font-size: 1.25rem;
+  }

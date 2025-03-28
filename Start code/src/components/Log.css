@@ -1,0 +1,51 @@
+#log ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  #log li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+  }
+  
+  .log--player {
+    color: #7700ff;
+    font-weight: bold;
+  }
+  
+  .log--monster {
+    color: #da8d00;
+    font-weight: bold;
+  }
+  
+  .log--damage {
+    color: #dc3545;
+  }
+  
+  .log--heal {
+    color: #28a745;
+  }
+  
+  /* Scrollbar styling */
+  #log ul::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #log ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  #log ul::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  #log ul::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
